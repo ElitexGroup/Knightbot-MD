@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: knightbot-md
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
